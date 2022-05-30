@@ -1,0 +1,53 @@
+.card-board-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 3rem;
+  margin-bottom: 100px;
+}
+
+.card-board {
+  overflow: hidden;
+  height: 600px;
+  background: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 0.5rem;
+  justify-content: center;
+  transition: 1s;
+}
+
+.card-board h3 {
+  font-size: 30px;
+  color: white;
+  transition: 0.7s;
+  align-self: center;
+}
+
+.card-board:hover h3 {
+  transform: scale(1.08)
+}
+
+#board-1 {
+  background-image: url(../images/surfboard1.jpeg);
+  background-size: cover;
+}
+#board-2 {
+  background-image: url(../images/surfboard2.jpeg);
+  background-size: cover;
+}
+#board-3 {
+  background-image: url(../images/surfboard3.jpeg);
+  background-size: cover;
+}
+#board-4 {
+  background-image: url(../images/surfboard4.jpeg);
+  background-size: cover;
+}
+#board-5 {
+  background-image: url(../images/surfboard5.jpeg);
+  background-size: cover;
+}

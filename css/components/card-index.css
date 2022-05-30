@@ -1,0 +1,46 @@
+.card-index-box{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-auto-rows: auto;
+grid-gap: 3rem;
+margin-bottom: 100px;
+}
+
+.card-index {
+  overflow: hidden;
+  height: 300px;
+  background: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 0.5rem;
+  justify-content: center;
+  transition: 1s;
+}
+
+.card-index:hover {
+  transform: scale(1.3);
+}
+
+.card-index h3 {
+  font-size: 30px;
+  color: white;
+  transition: 0.7s;
+  align-self: center;
+}
+
+.card-index:hover h3 {
+  transform: scale(1.08)
+}
+
+#surfshop-card{
+  background-image: url(../images/surfshop.jpg);
+  background-size: cover;
+}
+
+#aboutus-card{
+  background-image: url(../images/aboutus.jpg);
+  background-size: cover;
+}

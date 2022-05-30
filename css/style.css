@@ -1,0 +1,60 @@
+@import "components/card-profile.css";
+@import "components/card-index.css";
+@import "components/footer.css";
+@import "components/card-board.css";
+@import "components/aboutus-card.css";
+
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+#navbar{
+  background-color: #233142;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  background-image: url(images/banner.jpg);
+}
+
+.banner p{
+  margin-bottom: 40px;
+}
+
+.btn-blue{
+  color: #233142;
+  border: solid;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: #233142;
+  border-color: #233142;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.banner-discover {
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  background-image: url(https://www.meatandtravel.com/wp-content/uploads/2014/11/Mayon-Volcano-rainy.jpg);
+}
+
+.banner-discover p {
+  color: #233142;
+}
+
+.banner p {
+  color: #233142;
+}
+
+#title-name{
+  color: #233142;
+}
